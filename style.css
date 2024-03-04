@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+@media screen and (max-width:768px){
+  .navbar {
+    overflow: hidden;
+    background-color:white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.276);
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+  }
+  .navbar a img{
+    width: 25px;
+  }
+
+  header{
+    padding: 10px;
+  }
+  header .head{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .head .logo img{
+    width: 60%;
+  }
+  .head .icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 10px;
+  }
+  .head .icons img{
+    width: 30px;
+  }
+section{
+    margin-bottom: 10px;
+}
+  swiper-container {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  swiper-slide img {
+    border: 5px solid rgb(247, 95, 95);
+    border-radius: 50%;
+    border-style: dotted;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    padding: 5px;
+  }
+  swiper-slide p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .posts{
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+  .posts .post{}
+  .post .mainpost{
+    width: 100%;
+  }
+
+  .post .posticon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .posticon .like{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .like img{
+    width: 30px;
+  }
+  .posticon .fav img{
+    width: 30px;
+  }
+}
